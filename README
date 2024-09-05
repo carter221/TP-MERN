@@ -1,0 +1,49 @@
+# React Product Management
+
+## Description
+Ce projet est une application de gestion de produits construite avec React pour le front-end et Express pour le back-end. Il permet d'ajouter, de mettre à jour, de supprimer et de lister des produits.
+
+## Prérequis
+- Node.js
+- npm
+
+## Installation
+
+1. Installez les dépendances pour le back-end :
+    ```bash
+    cd react-tp-perso/back
+    npm install
+    ```
+
+2. Installez les dépendances pour le front-end :
+    ```bash
+    cd ../front
+    npm install
+    ```
+
+## Démarrage
+
+1. Démarrez le serveur back-end :
+    ```bash
+    cd back
+    npm start
+    ```
+
+2. Démarrez le serveur front-end :
+    ```bash
+    cd ../front
+    npm start
+    ```
+
+## Utilisation
+- Accédez à l'application via `http://localhost:3000`.
+- Utilisez l'interface pour ajouter, mettre à jour, supprimer et lister des produits.
+
+## Routes API
+
+### Produits
+- `GET /api/products` : Récupère la liste des produits.
+- `POST /api/product/add` : Ajoute un nouveau produit.
+- `PUT /api/product/update/:id` : Met à jour un produit existant.
+- `DELETE /api/product/delete/:id` : Supprime un produit existant.
+- `GET /api/product/:id` : Récupère un produit par son ID.
